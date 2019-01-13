@@ -4,7 +4,7 @@ Welcome to the Discord Portable Homepage! Here you will find resources and downl
 - [Wiki](https://github.com/JarlPenguin/DiscordPortable/wiki)
 - [GitHub](https://github.com/JarlPenguin/DiscordPortable)
 - [Discord Server](https://discord.gg/VVuZHqT)
-- [PortableApps Resource Page](https://portableapps.com/node/) - not available yet
+- [PortableApps Resource Page](https://portableapps.com/node/59805)
 - This app's [help.html](https://github.com/JarlPenguin/DiscordPortable/tree/master/docs/help.html)
 
 ## Downloads
