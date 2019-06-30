@@ -1,30 +1,47 @@
+The base application's source code is available from the portable app's
+homepage listed in the help.html file (if applicable).
 
-;= CHANGELOG 
-;= ################
-Month #th, Year
- • Created AppName Portable
+Details of most other things are available there as well.
 
- 
-;= NOTES
-;= ################
+LICENSE
+=======
 
+This package's installer and launcher are released under the GPL. The launcher
+is the PortableApps.com Launcher, available with full source and documentation
+from http://portableapps.com/development. We request that developers using the
+PortableApps.com Launcher please leave this directory intact and unchanged.
 
-;= PRESERVE
-;= ################
-If you would like to preserve any directories and/or file(s) during upgrades or reinstalls you can do so by writing in the installer.ini located within the AppInfo directory (..\FLStudioPortable\App\AppInfo). If there isn't an installer.ini file than simply create it within the AppInfo folder and use the example format below. 
+USER CONFIGURATION
+==================
 
-For more information on preserving files and directories please visit the following:
-FILES: //portableapps.com/manuals/PortableApps.comLauncher/ref/paf/installer.html#within-the-optional-filestopreserve-section
-DIRECTORIES: //portableapps.com/manuals/PortableApps.comLauncher/ref/paf/installer.html#within-the-optional-directoriestopreserve-section
+Some configuration in the PortableApps.com Launcher can be overridden by the
+user in an INI file next to UserBenchMarkPortable.exe called UserBenchMarkPortable.ini.
+If you are happy with the default options, it is not necessary, though.  There
+is an example INI included with this package to get you started.  To use it,
+copy AppNamePortable.ini from this directory to UserBenchMarkPortable.ini next to
+UserBenchMarkPortable.exe. The options in the INI file are as follows:
 
-FILES EXAMPLE:
+   AdditionalParameters=
+   DisableSplashScreen=false
+   RunLocally=false
 
-[FilesToPreserve]
-PreserveFile1=App\AppName\plugins\*.dll
-PreserveFile2=App\AppName\filters\filename.ext
+(There is no need for an INI header in this file; if you have one, though, it
+won't damage anything.)
 
-DIRECTORIES EXAMPLE:
+The AdditionalParameters entry allows you to pass additional command-line
+parameters to the application.
 
-[DirectoriesToPreserve]
-PreserveDirectory1=App\AppName\plugins
-PreserveDirectory1=App\AppName\filters
+The DisableSplashScreen entry allows you to run the launcher without the splash
+screen showing up.  The default is false.
+
+The RunLocally entry allows you to run the portable application from a read-
+only medium. This is known as Live mode. It copies what it needs to to a
+temporary directory on the host computer, runs the application, and then
+deletes it afterwards, leaving nothing behind. This can be useful for running
+the application from a CD or if you work on a computer that may have spyware or
+viruses and you'd like to keep your device set to read-only. As a consequence
+of this technique, any changes you make during the Live mode session aren't
+saved back to your device.  The default is false.
+
+There may be other values also permitted in the user configuration file by the
+portable application; refer to help.html for any details of them.
