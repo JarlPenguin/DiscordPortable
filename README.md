@@ -7,6 +7,4 @@ Continuing development from https://github.com/daemondevin/DiscordPortable
 
 <strong>Note</strong>: Requires an internet connection.
 
-<strong>Development Status</strong>: Active Development, Development Testing
-
-<strong>Looking for beta testers!</strong>
+<strong>Development Status</strong>: Maintenance
