@@ -15,11 +15,11 @@ USER CONFIGURATION
 ==================
 
 Some configuration in the PortableApps.com Launcher can be overridden by the
-user in an INI file next to UserBenchMarkPortable.exe called UserBenchMarkPortable.ini.
+user in an INI file next to DiscordPortable.exe called DiscordPortable.ini.
 If you are happy with the default options, it is not necessary, though.  There
 is an example INI included with this package to get you started.  To use it,
-copy AppNamePortable.ini from this directory to UserBenchMarkPortable.ini next to
-UserBenchMarkPortable.exe. The options in the INI file are as follows:
+copy AppNamePortable.ini from this directory to DiscordPortable.ini next to
+DiscordPortable.exe. The options in the INI file are as follows:
 
    AdditionalParameters=
    DisableSplashScreen=false
