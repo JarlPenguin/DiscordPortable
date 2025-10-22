@@ -7,4 +7,4 @@ Continuing development from https://github.com/daemondevin/DiscordPortable
 
 <strong>Note</strong>: Requires an internet connection.
 
-<strong>Development Status</strong>: Maintenance
+<strong>Development Status</strong>: Deprecated
